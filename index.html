@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Consultant Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="logo">This Interior</div>
+            
+                <nav class="nav">
+                    <input type="checkbox" id="check">
+                        <label for="check" class="checkbox-btn">
+                            <i class="fa fa-bars" id="i"></i>
+                        </label>
+                    <ul class="liste-items">
+                        <li class="items" >Home</li>
+                        <li class="items" >Collection</li>
+                        <li class="items" >About</li>
+                        <li class="items" >Contact</li>
+                    </ul>
+                </nav>
+        </header>    
+
+        <main>
+            <section>
+                <div class="block-left">
+                    <h1 class="title">Modern interior</h1>
+                    <article class="p-infos">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</article>
+                    <div class="read">Read more <i class="material-icons">trending_flat</i></div>
+                </div>
+
+                <div class="image">
+                    <img class="img1" src="assets/photo1.png" alt="interiors deco">
+                </div>
+                
+                <div class="card">
+                    <div class="head-card">
+                        <img src="assets/photo2.png" alt="aliza illustration">
+                        <div class="profile">
+                            <h3>Aliza Webber</h3>
+                            <h4>Interior designer</h4>
+                        </div>
+                    </div>
+                    <div class="card-info">Designed in 2020 by Aliza Webber</div>
+                </div>
+                
+            </section>
+        </main>
+    </div>    
+
+    <footer>
+        <hr>
+        <p>Yathavan Seyavan @ DevChallenge.io</p> 
+    </footer>
+
+    <script>
+        
+        const check = document.querySelector('#check');
+        const i = document.getElementById("i");
+        
+        check.addEventListener('click', function(e) {
+            const check = document.getElementById("check").checked;
+        
+            if(check){
+                i.classList.remove("fa");
+                i.classList.remove("fa-bars");
+                i.classList.add("fas");
+                i.classList.add("fa-times");
+            } else {
+                i.classList.remove("fas");
+                i.classList.remove("fa-times");
+                i.classList.add("fa");
+                i.classList.add("fa-bars");
+            }
+        });
+        
+    </script>    
+
+</body>
+</html>
