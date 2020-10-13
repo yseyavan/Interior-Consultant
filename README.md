@@ -25,7 +25,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/benbd5/devChallenges/blob/master/interior-consultant-master/ressources/Capture%20d%E2%80%99%C3%A9cran%202020-10-05%20181441.png)
+![screenshot](https://github.com/yseyavan/Interior-Consultant/blob/master/assets/pre.png)
 
 ### Built With
 
