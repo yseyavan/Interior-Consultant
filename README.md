@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://benbd5.github.io/devChallenges/interior-consultant-master/">
+    <a href="https://yseyavan.github.io/Interior-Consultant/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/benbd5/devChallenges/tree/master/interior-consultant-master">
+    <a href="https://github.com/yseyavan/Interior-Consultant">
       Solution
     </a>
     <span> | </span>
@@ -21,7 +21,6 @@
     </a>
   </h3>
 </div>
-
 <!-- OVERVIEW -->
 
 ## Overview
@@ -32,3 +31,10 @@
 
 - [HTML]
 - [CSS]
+
+## Contact
+
+- GitHub [@yseyavan](https://github.com/yseyavan)
+- Twitter [@yseyavan88](https://twitter.com/yseyavan88)
+- FaceBook [@seyavan88](https://www.facebook.com/seyavan88)
+- Instagram [@seyavan88](https://www.instagram.com/seyavan88)
